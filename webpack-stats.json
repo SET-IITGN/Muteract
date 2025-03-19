@@ -1,0 +1,41 @@
+{
+  "status": "done",
+  "assets": {
+    "frontend-19164a22a2fb3b771afc.js": {
+      "name": "frontend-19164a22a2fb3b771afc.js",
+      "path": "/home/set-iitgn-vm/Thesis/fault-loc/MBFuzzLLM/frontend/static/frontend/frontend-19164a22a2fb3b771afc.js",
+      "publicPath": "static/frontend/frontend-19164a22a2fb3b771afc.js"
+    },
+    "frontend-43a5b084f71c92695ad2.js": {
+      "name": "frontend-43a5b084f71c92695ad2.js",
+      "path": "/home/set-iitgn-vm/Thesis/fault-loc/MBFuzzLLM/frontend/static/frontend/frontend-43a5b084f71c92695ad2.js",
+      "publicPath": "static/frontend/frontend-43a5b084f71c92695ad2.js"
+    },
+    "frontend-520a0d2989436930d6fa.js": {
+      "name": "frontend-520a0d2989436930d6fa.js",
+      "path": "/home/set-iitgn-vm/Thesis/fault-loc/MBFuzzLLM/frontend/static/frontend/frontend-520a0d2989436930d6fa.js",
+      "publicPath": "static/frontend/frontend-520a0d2989436930d6fa.js"
+    },
+    "node_modules_web-vitals_dist_web-vitals_js-19164a22a2fb3b771afc.js": {
+      "name": "node_modules_web-vitals_dist_web-vitals_js-19164a22a2fb3b771afc.js",
+      "path": "/home/set-iitgn-vm/Thesis/fault-loc/MBFuzzLLM/frontend/static/frontend/node_modules_web-vitals_dist_web-vitals_js-19164a22a2fb3b771afc.js",
+      "publicPath": "static/frontend/node_modules_web-vitals_dist_web-vitals_js-19164a22a2fb3b771afc.js"
+    },
+    "node_modules_web-vitals_dist_web-vitals_js-43a5b084f71c92695ad2.js": {
+      "name": "node_modules_web-vitals_dist_web-vitals_js-43a5b084f71c92695ad2.js",
+      "path": "/home/set-iitgn-vm/Thesis/fault-loc/MBFuzzLLM/frontend/static/frontend/node_modules_web-vitals_dist_web-vitals_js-43a5b084f71c92695ad2.js",
+      "publicPath": "static/frontend/node_modules_web-vitals_dist_web-vitals_js-43a5b084f71c92695ad2.js"
+    },
+    "node_modules_web-vitals_dist_web-vitals_js-520a0d2989436930d6fa.js": {
+      "name": "node_modules_web-vitals_dist_web-vitals_js-520a0d2989436930d6fa.js",
+      "path": "/home/set-iitgn-vm/Thesis/fault-loc/MBFuzzLLM/frontend/static/frontend/node_modules_web-vitals_dist_web-vitals_js-520a0d2989436930d6fa.js",
+      "publicPath": "static/frontend/node_modules_web-vitals_dist_web-vitals_js-520a0d2989436930d6fa.js"
+    }
+  },
+  "chunks": {
+    "frontend": [
+      "frontend-19164a22a2fb3b771afc.js"
+    ]
+  },
+  "publicPath": "static/frontend/"
+}

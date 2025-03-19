@@ -1,0 +1,5 @@
+{
+    "chat-gpt": {
+        "api_key_var": "OPEN_AI_API_KEY"
+    }
+}
