@@ -1,5 +1,6 @@
 # Muteract
 Interactive and Iterative Prompt Mutation Interface for LLM Developers and Evaluators
+![Screenshot of the Muteract User Interface](UI.png "Muteract User Interface")
 
 ## Installation
 Ensure Python 3.10 or above and Node.js v22.3.0 or above are installed.
