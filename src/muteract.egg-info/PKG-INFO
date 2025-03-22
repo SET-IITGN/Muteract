@@ -1,0 +1,58 @@
+Metadata-Version: 2.4
+Name: muteract
+Version: 0.1.1
+Summary: A small example package
+Author-email: Mukul Paras Potta <mukul.potta@iitgn.ac.in>
+License-Expression: Apache-2.0
+Project-URL: Homepage, https://github.com/SET-IITGN/Muteract
+Project-URL: Issues, https://github.com/SET-IITGN/Muteract/issues
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: annotated-types==0.7.0
+Requires-Dist: anyio==4.8.0
+Requires-Dist: asgiref==3.8.1
+Requires-Dist: certifi==2024.12.14
+Requires-Dist: click==8.1.8
+Requires-Dist: distro==1.9.0
+Requires-Dist: Django==5.1.5
+Requires-Dist: django-webpack-loader==3.1.1
+Requires-Dist: exceptiongroup==1.2.2
+Requires-Dist: gunicorn==23.0.0
+Requires-Dist: h11==0.14.0
+Requires-Dist: httpcore==1.0.7
+Requires-Dist: httpx==0.28.1
+Requires-Dist: idna==3.10
+Requires-Dist: jiter==0.8.2
+Requires-Dist: joblib==1.4.2
+Requires-Dist: nltk==3.9.1
+Requires-Dist: openai==1.59.8
+Requires-Dist: packaging==24.2
+Requires-Dist: pydantic==2.10.5
+Requires-Dist: pydantic_core==2.27.2
+Requires-Dist: regex==2024.11.6
+Requires-Dist: rouge==1.0.1
+Requires-Dist: six==1.17.0
+Requires-Dist: sniffio==1.3.1
+Requires-Dist: sqlparse==0.5.3
+Requires-Dist: tqdm==4.67.1
+Requires-Dist: typing_extensions==4.12.2
+
+# Muteract
+Interactive and Iterative Prompt Mutation Interface for LLM Developers and Evaluators
+![Screenshot of the Muteract User Interface](images/UI.png "Muteract User Interface")
+
+## Installation
+Ensure Python 3.10 or above and Node.js v22.3.0 or above are installed.
+Clone this repository and run the following commands in the root folder of the repository:
+```
+pip install -r requirements.txt
+npm install
+```
+After this is done, add the OpenAI API Key in the script `start.sh`.
+Then run the script using:
+```
+chmod +x start.sh
+./start.sh
+```
