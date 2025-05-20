@@ -1,25 +1,25 @@
 {
   "status": "done",
   "assets": {
-    "364-77d21459c1d0fcc4397e.js": {
-      "name": "364-77d21459c1d0fcc4397e.js",
-      "path": "/workspaces/Muteract/src/Muteract/frontend/static/frontend/364-77d21459c1d0fcc4397e.js",
-      "publicPath": "static/frontend/364-77d21459c1d0fcc4397e.js"
+    "364-02be93423ab7ebfb3ad0.js": {
+      "name": "364-02be93423ab7ebfb3ad0.js",
+      "path": "/workspaces/Muteract/src/Muteract/frontend/static/frontend/364-02be93423ab7ebfb3ad0.js",
+      "publicPath": "static/frontend/364-02be93423ab7ebfb3ad0.js"
     },
-    "frontend-77d21459c1d0fcc4397e.js": {
-      "name": "frontend-77d21459c1d0fcc4397e.js",
-      "path": "/workspaces/Muteract/src/Muteract/frontend/static/frontend/frontend-77d21459c1d0fcc4397e.js",
-      "publicPath": "static/frontend/frontend-77d21459c1d0fcc4397e.js"
+    "frontend-02be93423ab7ebfb3ad0.js": {
+      "name": "frontend-02be93423ab7ebfb3ad0.js",
+      "path": "/workspaces/Muteract/src/Muteract/frontend/static/frontend/frontend-02be93423ab7ebfb3ad0.js",
+      "publicPath": "static/frontend/frontend-02be93423ab7ebfb3ad0.js"
     },
-    "frontend-77d21459c1d0fcc4397e.js.LICENSE.txt": {
-      "name": "frontend-77d21459c1d0fcc4397e.js.LICENSE.txt",
-      "path": "/workspaces/Muteract/src/Muteract/frontend/static/frontend/frontend-77d21459c1d0fcc4397e.js.LICENSE.txt",
-      "publicPath": "static/frontend/frontend-77d21459c1d0fcc4397e.js.LICENSE.txt"
+    "frontend-02be93423ab7ebfb3ad0.js.LICENSE.txt": {
+      "name": "frontend-02be93423ab7ebfb3ad0.js.LICENSE.txt",
+      "path": "/workspaces/Muteract/src/Muteract/frontend/static/frontend/frontend-02be93423ab7ebfb3ad0.js.LICENSE.txt",
+      "publicPath": "static/frontend/frontend-02be93423ab7ebfb3ad0.js.LICENSE.txt"
     }
   },
   "chunks": {
     "frontend": [
-      "frontend-77d21459c1d0fcc4397e.js"
+      "frontend-02be93423ab7ebfb3ad0.js"
     ]
   },
   "publicPath": "static/frontend/"

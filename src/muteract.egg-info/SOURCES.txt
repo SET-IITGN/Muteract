@@ -2,6 +2,7 @@ LICENSE
 MANIFEST.in
 README.md
 pyproject.toml
+src/Muteract/.gitignore
 src/Muteract/db.sqlite3
 src/Muteract/main.py
 src/Muteract/manage.py
@@ -64,11 +65,9 @@ src/Muteract/frontend/src/react-app-env.d.ts
 src/Muteract/frontend/src/reportWebVitals.ts
 src/Muteract/frontend/src/setupTests.ts
 src/Muteract/frontend/src/theme.ts
-src/Muteract/frontend/static/frontend/364-0f2d0771a8b2e8fd769d.js
-src/Muteract/frontend/static/frontend/frontend-0f2d0771a8b2e8fd769d.js
-src/Muteract/frontend/static/frontend/frontend-0f2d0771a8b2e8fd769d.js.LICENSE.txt
-src/Muteract/frontend/static/frontend/frontend-19164a22a2fb3b771afc.js
-src/Muteract/frontend/static/frontend/node_modules_web-vitals_dist_web-vitals_js-19164a22a2fb3b771afc.js
+src/Muteract/frontend/static/frontend/364-77d21459c1d0fcc4397e.js
+src/Muteract/frontend/static/frontend/frontend-77d21459c1d0fcc4397e.js
+src/Muteract/frontend/static/frontend/frontend-77d21459c1d0fcc4397e.js.LICENSE.txt
 src/Muteract/frontend/templates/frontend/index.html
 src/muteract.egg-info/PKG-INFO
 src/muteract.egg-info/SOURCES.txt

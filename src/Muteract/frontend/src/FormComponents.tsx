@@ -43,7 +43,7 @@ const ParentFormComponent = ({ seed }) => {
 
   const chatStorage = new BasicStorage({ groupIdGenerator, messageIdGenerator });
   Conversations.forEach(c => {
-    if ((c.id.includes("gpt") || c.id.includes("o")) && !(c.id.includes("preview") || c.id.includes("latest"))) {
+    if ((c.id.includes("gpt") || c.id.includes("o")) && !(c.id.includes("instruct") || c.id.includes("preview") || c.id.includes("latest") || c.id.includes("transcribe") || c.id.includes("tts") || c.id.includes("moderation"))) {
       chatStorage.addUser(c);
       const conversationId = nanoid();
       const myConversation = chatStorage.getState().conversations.find(cv => typeof cv.participants.find(p => p.id === c.id) !== "undefined");
