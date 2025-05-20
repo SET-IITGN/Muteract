@@ -65,9 +65,9 @@ src/Muteract/frontend/src/react-app-env.d.ts
 src/Muteract/frontend/src/reportWebVitals.ts
 src/Muteract/frontend/src/setupTests.ts
 src/Muteract/frontend/src/theme.ts
-src/Muteract/frontend/static/frontend/364-77d21459c1d0fcc4397e.js
-src/Muteract/frontend/static/frontend/frontend-77d21459c1d0fcc4397e.js
-src/Muteract/frontend/static/frontend/frontend-77d21459c1d0fcc4397e.js.LICENSE.txt
+src/Muteract/frontend/static/frontend/364-02be93423ab7ebfb3ad0.js
+src/Muteract/frontend/static/frontend/frontend-02be93423ab7ebfb3ad0.js
+src/Muteract/frontend/static/frontend/frontend-02be93423ab7ebfb3ad0.js.LICENSE.txt
 src/Muteract/frontend/templates/frontend/index.html
 src/muteract.egg-info/PKG-INFO
 src/muteract.egg-info/SOURCES.txt
