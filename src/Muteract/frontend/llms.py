@@ -33,7 +33,7 @@ class ChatGPT:
     def get_models(self):
         return self.models_list
 
-    def get_response(self, model, prompt, generation_config):
+    def _get_response_gpt(self, model, prompt, generation_config):
         response = self.client.chat.completions.create(
             model=model,
             messages=[
@@ -60,3 +60,33 @@ class ChatGPT:
             seed=None,
         )
         return response.choices[0].message.content
+    
+    def _get_response_reasoning(self, model, prompt, generation_config):
+        response = self.client.chat.completions.create(
+            model=model,
+            messages=[
+                ChatCompletionDeveloperMessageParam(
+                    role="developer",
+                    content=[
+                        ChatCompletionContentPartTextParam(
+                            text=generation_config["developerMessage"],
+                            type="text"
+                        )
+                    ]
+                ),
+                ChatCompletionUserMessageParam(
+                    role="user",
+                    content=[ChatCompletionContentPartTextParam(
+                        text=prompt,
+                        type="text"
+                    )]
+                )
+            ]
+        )
+        return response.choices[0].message.content
+
+    def get_response(self, model, prompt, generation_config):
+        if 'gpt' in model:
+            return self._get_response_gpt(model, prompt, generation_config)
+        else:
+            return self._get_response_reasoning(model, prompt, generation_config)
