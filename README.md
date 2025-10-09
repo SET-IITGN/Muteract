@@ -15,6 +15,7 @@ Interactive and Iterative Prompt Mutation Interface for LLM Developers and Evalu
   - [Acknowledgements](#acknowledgements)
   - [Contributing](#contributing)
   - [License](#license)
+  - [Citation](#citation)
 
 ## Introduction
 
