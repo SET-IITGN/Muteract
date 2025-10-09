@@ -73,3 +73,8 @@ Conrtibutions are accepted via pull requests. The PRs will be accepted only if t
 ## License
 [Apache License](LICENSE)
 
+## Citation
+Yogesh Kumar Meena, Shouvick Mondal, and Mukul Paras Potta. 2025. 
+[Muteract: Interactive and Iterative Prompt Mutation Interface for LLM Developers and Evaluators](https://doi.org/10.1145/3768633.3770129). 
+In India HCI 2025 - The 16th International Conference of Human-Computer Interaction (HCI) Design & Research (IndiaHCI ’25), 
+November 07–09, 2025, Delhi, India. ACM, New York, NY, USA, 13 pages.
