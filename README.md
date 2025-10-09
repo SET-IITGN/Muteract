@@ -61,11 +61,8 @@ Python version above 3.10 is needed for running the application, along with a br
 ```
 
 ## Acknowledgements
-This tool is being developed by [SET-IITGN Group](https://sites.google.com/view/shouvick/shouvick-mondal) in collaboration with [HAIx Lab, IITGN](https://labs.iitgn.ac.in/haix/).
-
-This work is supported by Grant No. IP/IITGN/CSE/SM/2324/02
-and Grant No. IP/IITGN/CSE/YM/2324/05 from IIT Gandhinagar,
-Gujarat, India.
+This tool is under continuous development by [SET-IITGN Group](https://sites.google.com/view/shouvick/shouvick-mondal) in collaboration with [HAIx Lab, IITGN](https://labs.iitgn.ac.in/haix/).
+This work was partially supported by IIT Gandhinagar (Grant Nos. IP/IITGN/CSE/SM/2324/02 and IP/IITGN/CSE/YM/2324/05), the OpenAI API Researcher Access Program (Grant No. 0000004087).
 
 ## Contributing
 
