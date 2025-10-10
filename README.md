@@ -61,7 +61,7 @@ Python version above 3.10 is needed for running the application, along with a br
 ```
 
 ## Acknowledgements
-This interface is under continuous development by [SET-IITGN Group](https://sites.google.com/view/shouvick/shouvick-mondal) in collaboration with [HAIx Lab, IITGN](https://labs.iitgn.ac.in/haix/).
+This interface is under continuous development by [HAIx Lab, IITGN](https://labs.iitgn.ac.in/haix/) in collaboration with [SET-IITGN Group](https://sites.google.com/view/shouvick/shouvick-mondal).
 
 This work was partially supported by [IIT Gandhinagar](https://iitgn.ac.in/) (Grant Nos. IP/IITGN/CSE/SM/2324/02 and IP/IITGN/CSE/YM/2324/05), the OpenAI API Researcher Access Program (Grant No. 0000004087).
 
