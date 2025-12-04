@@ -73,7 +73,21 @@ Conrtibutions are accepted via pull requests. The PRs will be accepted only if t
 [Apache License](LICENSE)
 
 ## Citation
-Yogesh Kumar Meena, Shouvick Mondal, and Mukul Paras Potta. 2025. 
-[Muteract: Interactive and Iterative Prompt Mutation Interface for LLM Developers and Evaluators](https://doi.org/10.1145/3768633.3770129). 
-In India HCI 2025 - The 16th International Conference of Human-Computer Interaction (HCI) Design & Research (IndiaHCI ’25), 
-November 07–09, 2025, Delhi, India. ACM, New York, NY, USA, 13 pages.
+```
+@inproceedings{10.1145/3768633.3770129,
+author = {Meena, Yogesh Kumar and Mondal, Shouvick and Potta, Mukul Paras},
+title = {Muteract: Interactive and Iterative Prompt Mutation Interface for LLM Developers and Evaluators},
+year = {2025},
+isbn = {9798400718489},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3768633.3770129},
+doi = {10.1145/3768633.3770129},
+abstract = {Large Language Models (LLMs) are next-token predictors trained on massive datasets. However, their use is often restricted to interaction within pristine environments and controlled contexts. While the focus on natural language prompt-driven response generation has increased significantly, there is still limited attention given to how adversarial mutations of prompts affect the responses of LLMs. Adversarial inputs in real-world scenarios can be used to deceive the model and elicit questionable responses. Most existing works on adversarial inputs are based on algorithmic and system-centric approaches rather than capturing critical aspects of human experience and interaction. To address this gap, we introduce Muteract, a human-in-the-loop interactive and iterative prompt mutation interface that facilitates LLM developers and evaluators in applying manually-hard-to-produce byte-level data mutations to input prompts, and analysing variations in responses such as text, audio, image, etc. Performing byte-level perturbations largely makes it possible to generate adversaries using a single interface regardless of the input modality. We implemented Muteract and used it to interact with a state-of-the-art closed-source LLM, gpt-4o-mini. We sampled 116 natural language prompts (text) out of the 738 available in the AdvGLUE developer dataset for classification tasks, demonstrating Muteract’s potential to deceive models and elicit significantly dissimilar responses (text), leading to declines in model accuracy (task-specific) by 15-30 percentage points. Following this, we conducted a pilot study with 26 participants using gpt-4.1, where the task was to prompt the model to elicit responses that violate OpenAI’s Usage Policy. 12 participants were successful within three successive mutations using Muteract. This work demonstrates Muteract’s adversarial capabilities for LLM developers and evaluators. It provides potential use cases for assessing model robustness to noise during training and supporting HCI research, particularly in evaluating resilience to adversarial inputs and aiding red-teaming efforts.},
+booktitle = {Proceedings of the 16th International Conference of Human-Computer Interaction (HCI) Design \& Research},
+pages = {105–117},
+numpages = {13},
+keywords = {Human computer interaction, Large Language Models, Prompt Mutation, Text Input, User interface toolkits},
+location = {},
+series = {IndiaHCI '25}}
+```
